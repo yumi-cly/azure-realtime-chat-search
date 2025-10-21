@@ -1,24 +1,3 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
 # Maven
 target/
 pom.xml.tag
@@ -29,33 +8,32 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse
-.classpath
-.project
-.settings/
-
-# IntelliJ IDEA
+# IDE
 .idea/
 *.iml
-*.iws
-*.ipr
-
-# VS Code
 .vscode/
+*.code-workspace
 
-# macOS
-.DS_Store
+# Compiled class files
+*.class
 
-# Windows
-Thumbs.db
-ehthumbs.db
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
 # Environment variables
 .env
 *.env
 
-# Logs
-logs/
-*.log
+# OS
+.DS_Store
+Thumbs.db
